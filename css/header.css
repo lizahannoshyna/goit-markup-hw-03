@@ -1,3 +1,9 @@
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+  border-bottom: 1px solid #E7E9FC;
+}
 .logo {
   font-family: Raleway;
   font-size: 18px;
@@ -8,9 +14,17 @@
 
   text-transform: uppercase;
   text-decoration: none;
+  margin: 0px;
 }
 .logo-span {
   color: #4d5ae5;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  width: 253px;
+  padding: 0px;
+  margin: 0px 0px 0px 76px;
 }
 .nav-item__link {
   font-size: 16px;
@@ -28,6 +42,14 @@
 
 .address {
   font-style: normal;
+}
+
+.address-list{
+  width: 344px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px 0px 0px 340px;
 }
 
 .address-item__link {
