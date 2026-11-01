@@ -1,8 +1,10 @@
+.header {
+  border-bottom: 1px solid #E7E9FC;
+}
 .header-wrap{
   display: flex;
-  justify-content: space-between;
-  padding: 24px 0px;
-  border-bottom: 1px solid #E7E9FC;
+  align-items: center;
+  justify-content: space-between;  
 }
 .logo {
   font-family: Raleway;
@@ -19,20 +21,26 @@
 .logo-span {
   color: #4d5ae5;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav-list{
   display: flex;
-  justify-content: space-between;
-  width: 253px;
+  gap: 40px; 
+  list-style: none;
   padding: 0px;
-  margin: 0px 0px 0px 76px;
+  margin: 0px;
+  margin-left: 76px; 
 }
 .nav-item__link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
   text-decoration: none;
 }
 .nav-item__link:hover,
@@ -45,19 +53,20 @@
 }
 
 .address-list{
-  width: 344px;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
   padding: 0px;
-  margin: 0px 0px 0px 340px;
+  margin: 0px;
 }
 
 .address-item__link {
+  display: block;
+  padding: 24px 0; 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
   text-decoration: none;
 }
 .address-item__link:hover,

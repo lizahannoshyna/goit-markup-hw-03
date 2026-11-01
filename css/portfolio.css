@@ -19,13 +19,10 @@
   width: 360px;
 }
 
-.portfolio-item__image-wrapper{
-  width: 360px;
-  height: 300px;
-}
+
 .portfolio-item__image-wrapper img{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 }
